@@ -1,6 +1,6 @@
 {
 	"name": "minewalker",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"devDependencies": {
 		"jquery": "latest",
 		"discord.js": "latest"
@@ -8,5 +8,8 @@
 	"scripts": {
 		"start": "node index.js",
 		"gui": "devtool index.js"
+	},
+	"dependencies": {
+		"seedrandom": "^2.4.3"
 	}
 }
